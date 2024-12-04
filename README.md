@@ -44,7 +44,6 @@ services:
 
 ## Built with
 * [sshpiper](https://github.com/tg123/sshpiper)
-* [docker-sshpiper](https://github.com/11notes/docker-sshpiper)
 * [Alpine Linux](https://alpinelinux.org/)
 
 ## Tips
