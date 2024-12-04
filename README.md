@@ -20,7 +20,7 @@ services:
     image: coralhl/sshpiper
     container_name: sshpiper
     restart: unless-stopped
-    command: sshpiperd --log-level=trace yaml --config /sshpiperd/sshpiper.yaml
+    command: sshpiperd yaml --config /sshpiperd/sshpiper.yaml
     environment:
       TZ: Europe/Moscow 
     ports:
