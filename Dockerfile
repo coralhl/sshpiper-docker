@@ -21,7 +21,7 @@
     go build -tags full -o /usr/local/bin ./plugin/...;
 
 # :: Header
-  FROM coralhl/alpine-base:stable
+  FROM coralhl/alpine-base
   ENV APP_ROOT=/sshpiperd
   COPY --from=build /usr/local/bin/ /usr/local/bin
 
